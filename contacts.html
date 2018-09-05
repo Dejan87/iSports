@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>iSports Contact</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+
+	<link rel="shortcut icon" href="img/favicon/fav.png" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/fav.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/fav.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/fav.png">
+
+	<!-- Bootstrap v3.3.4 Grid Styles -->
+	<link rel="stylesheet" href="css/bootstrapGrid.css">
+	<!-- Header CSS (First Sections of Website: paste after release from header.min.css here) -->
+	<link rel="stylesheet" href="css/header.css">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="css/fonts.css">
+	<!-- Load CSS Start -->
+	<link rel="stylesheet" href="css/main.css">
+
+
+	<script>
+		function _(id){ return document.getElementById(id); }
+		function submitForm(){
+			_("mybtn").disabled = true;
+			_("status").innerHTML = 'please wait ...';
+			var formdata = new FormData();
+			formdata.append( "n", _("n").value );
+			formdata.append( "e", _("e").value );
+			formdata.append( "m", _("m").value );
+			var ajax = new XMLHttpRequest();
+			ajax.open( "POST", "example_parser.php" );
+			ajax.onreadystatechange = function() {
+				if(ajax.readyState == 4 && ajax.status == 200) {
+					if(ajax.responseText == "success"){
+						_("my_form").innerHTML = '<h4>Thanks '+_("n").value+', your message has been sent.</h4>';
+					} else {
+						_("status").innerHTML = ajax.responseText;
+						_("mybtn").disabled = false;
+					}
+				}
+			}
+			ajax.send( formdata );
+		}
+		</script>
+	
+</head>
+
+<body class="Pages">
+	<!-- preloader -->
+	<div class="pl">
+		<div class="round1 anti"></div>
+		<div class="pl_r"></div>
+		<div class="pl_l"></div>
+	</div>
+
+
+	<div class="wrapper">
+
+		<header class="main-head clearfix">
+			<div class="container">
+				<div class="bgc-header"></div>
+				<div class="header-top">
+					<div class="row">
+
+						<div class="mini-menu hidden-lg hidden-md">
+							<a href="#" class="toggle-mnu"><span></span></a>
+						</div> <!-- End Mini-menu -->
+
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<a href="index.html" class="logo"><img src="images/iSportsLogo.png" alt="logo image"></a>
+						</div>
+
+						<div class="mob-view col-lg-6 col-md-4 hidden-sm hidden-xs divHiddenMob">
+							<h1>Serbia Sport Travel</h1>
+						</div>
+
+						<div class="mob-view col-lg-2 col-md-4 hidden-sm hidden-xs">
+							<div class="row">
+								<div class="col-lg-12 hidden-xs">
+									<div class="icon-wrap">
+
+										<a href="https://www.facebook.com/iSportsTraveling/" target="_blank">
+											<div class="circle-border">
+												<i class="icon-facebook"></i>
+											</div>
+										</a>
+
+										<a href="https://www.instagram.com/isports.rs/" target="_blank">
+											<div class="circle-border">
+												<i class="icon-instagram-symbol"></i>
+											</div>
+										</a>
+
+									</div> <!-- End Icon-wrap -->
+								</div>
+							</div>
+
+						</div>
+
+					</div> <!-- End Row -->
+				</div> <!-- End Header-top -->
+
+				<!-- Start navigation -->
+				<nav id="menu" class="nav-line hidden-sm hidden-xs nav-dark">
+					<ul class="menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">about</a></li>
+						<li><a href="index.html#destinations">Destinations</a></li>
+						<li><a href="index.html#events">References</a></li>
+						<li><a href="index.html#team">Our Team</a></li>
+						
+						<li><a href="index.html#partners">PARTNERS</a></li>
+						<li class="active"><a href="#">Contact</a></li>
+					</ul>
+				</nav> <!-- End Nav -->
+
+				<nav class="nav-line-hidden hidden-lg hidden-md ">
+					<ul class="menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">about</a></li>
+						<li><a href="index.html#destinations">Destinations</a></li>
+						<li><a href="index.html#events">References</a></li>
+						<li><a href="index.html#team">Our Team</a></li>
+						
+						<li><a href="index.html#partners">PARTNERS</a></li>
+						<li class="active"><a href="#">Contact</a></li>
+
+					</ul>
+				</nav> <!-- End Nav -->
+
+			</div> <!-- End Container -->
+		</header> <!-- End Header -->
+
+		<!-- Start Page-Content -->
+		<section id="page-content" >
+
+			<!-- Start Breadcrumbs -->
+			<div class="breadcrumbs">
+				<ul class="breadcrumb t-center">
+					<li><a href="index.html">home</a></li>
+					<li class="active">contact</li>
+				</ul>
+			</div> <!-- End Breadcrumbs -->
+
+			<div class="page-contacts-block">
+				<div class="container">
+					<div class="row">
+
+						<div class="text-wrap t-center">
+							<h2>Contact</h2>
+						</div>
+
+						<div class="col-md-8 col-md-push-4">
+							<div class="message-wrap">
+								<h3>Leave Your Message</h3>
+								
+								<!-- form-block -->
+								<form id="my_form" onsubmit="submitForm(); return false;">
+									<p><input id="n" placeholder="Name" required></p>
+									<p><input id="e" placeholder="Email Address" type="email" required></p>
+									<textarea id="m" placeholder="Write your message here" rows="10" required></textarea>
+									<p><input id="mybtn" type="submit" value="Send"> <span id="status"></span></p>
+								</form>
+
+							</div> 
+						</div>
+
+						<div class="col-md-4 col-md-pull-8 padding-null">
+							<div class="contact-info-wrap">
+								<h3>Contact Info</h3>
+
+								<p><span class="orange-text">Sport travelling company </span><br> Belgrade, Serbia</p>
+								<!--<p>For current members: <br><a href="#">Info@youremail.com</a></p>
+								<p>For new members: <br><a href="#">fornew@youremail.com</a></p>
+								<p>Press/Media: <br><a href="#">press@youremail.com</a></p>
+								<p>Sponsorship: <br><a href="#">sponsorship@youremail.com</a></p>-->
+
+								<div class="number-block">
+									<p>Contact us:</p>
+									<p class="number">office@isports.rs</p>
+								</div>
+
+								<div class="icon-wrap">
+
+									<p>Be in touch:</p>
+
+									<a href="https://www.facebook.com/iSportsTraveling/" target="_blank">
+										<div class="circle-border">
+											<i class="icon-facebook"></i>
+										</div>
+									</a>
+
+									<a href="https://www.instagram.com/isports.rs/" target="_blank">
+										<div class="circle-border">
+											<i class="icon-instagram-symbol"></i>
+										</div>
+									</a>
+
+								</div> <!-- End Icon-wrap -->
+
+							</div>
+						</div>
+
+					</div> <!-- End Row -->
+				</div> <!-- End Container -->
+			</div> <!-- End Page-contacts-block -->
+
+
+
+
+		</section> <!-- End Page-Content-->
+
+		<!-- Start Page-Footer -->
+		<footer class="page-footer t-white">
+			<div class="footer-wrap">
+				<div class="container-fluid">
+					<div class="row">
+
+						<div class="col-md-6 padding-null">
+							<div class="map-wrap">
+								<a target="_blank" href="https://www.google.rs/maps/place/Belgrade/@44.8154033,20.2825126,11z/data=!3m1!4b1!4m5!3m4!1s0x475a7aa3d7b53fbd:0x1db8645cf2177ee4!8m2!3d44.786568!4d20.4489216?hl=en">
+									<div id="map"> <i class="icon-map-marker-point"></i></div>
+								</a>
+							</div>
+						</div>
+
+						<div class="col-md-6 padding-null">
+							<div class="content-wrap-footer">
+								<div class="content-footer">
+
+									<div class="logo-footer">
+											<a href="index.html">
+												<img class="responsive-img" src="images/iSportsLogo.png" alt="logo">
+											</a>
+										</div>
+
+										<div class="b-contacts-wrap clearfix">
+
+											<div class="b-inner1">
+												<p class="orange-text">Sport travelling company</p>
+												<p>Belgrade, Serbia</p>
+											</div>
+
+											<div class="b-inner2">
+												<p>Contact us:</p>
+												<p class="number">office@isports.rs</p>
+											</div>
+
+										</div>
+
+									<div class="copyright">
+										<p>Copyright © 2017 | <span class="orange-text">iSports</span></p>
+										<p>Designed and developed by <a href="http://www.codigmasolutions.com/" target="_blank"><span class="orange-text">CodigmaSolutions</span></a></p>
+									</div>
+
+								</div>	<!-- End content-footer -->
+							</div><!-- End content-wrap-footer -->
+						</div><!-- End col-md-6 -->
+
+					</div> <!-- End Row -->
+				</div> <!-- End Container -->
+			</div> <!-- End footer-wrap -->
+		</footer><!-- End Page-Footer -->
+
+	</div> <!-- End Wrapper -->
+
+	<div class="hidden"></div>
+
+	<!-- Load Scripts Start -->
+	
+	<script src="js/libs.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Load Scripts End -->
+
+		<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+</body>
+</html>
