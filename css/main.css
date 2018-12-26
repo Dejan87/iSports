@@ -4319,6 +4319,20 @@ body textarea:required:valid {
     animation-delay: .6s
 }
 
+.b-wrap4 {
+    background-image: /*-webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),*/ url('../images/istanbul.jpg');
+    background-image: /*linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),*/ url('../images/istanbul.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    min-height: 660px;
+    position: relative;
+    z-index: 8;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s
+}
+
 .RMDest {
     font-size: 20px !important;
     -webkit-transition: all .5s ease;
