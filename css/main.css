@@ -5061,8 +5061,16 @@ body textarea:required:valid {
     display: block
 }
 
+#partners {
+    outline: none;
+}
+
 #grbUdineseClient {
     margin-top: 30px;
+}
+
+#clients {
+    outline: none;
 }
 /* #itmPartnerFSB a img {
     height: 145px;
@@ -7208,7 +7216,8 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 @media only screen and (max-width:1440px) {
     .b-wrap1,
     .b-wrap2,
-    .b-wrap3 {
+    .b-wrap3,
+    .b-wrap4 {
         min-height: 460px
     }
     .block-Teams .b-hover-team:hover .oblique-block {
@@ -8434,7 +8443,8 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
     }
     .b-wrap1,
     .b-wrap2,
-    .b-wrap3 {
+    .b-wrap3,
+    .b-wrap4 {
         min-height: 310px!important
     }
     .carousel-wrap-teams .owl-nav.disabled {
