@@ -4024,7 +4024,7 @@ body textarea:required:valid {
 }
 
 .Pages .infoCommittee-wrap {
-    margin-top: 122px
+    margin-top: 0px
 }
 
 .Pages .infoCommittee-wrap .inner-text {
@@ -4081,6 +4081,10 @@ body textarea:required:valid {
     display: inline-block
 }
 
+.carousel-wrap-news .btn-wrap {
+    position: relative;
+}
+
 .infoClub-wrap .btn-wrap .btn {
     width: 200px
 }
@@ -4116,7 +4120,7 @@ body textarea:required:valid {
 }
 
 .infoCommittee-wrap h2 {
-    margin-top: 122px;
+    margin-top: 0px;
     margin-left: -17px;
     line-height: 1.1;
     letter-spacing: 1.6px
@@ -4176,11 +4180,11 @@ body textarea:required:valid {
 }
 
 .block-Teams .t-wrap h2 {
-    margin-top: 46px
+    margin-top: 60px
 }
 
 .block-Teams .t-wrap h4 {
-    margin: 10px 0 60px 0;
+    margin: 10px 0 30px 0;
     font-family: RobotoCondensedLight, sans-serif
 }
 
@@ -4208,21 +4212,21 @@ body textarea:required:valid {
 }
 
 .block-Teams .teams-content .oblin-block-img img {
-    width: 140px;
-    height: 120px
+    width: 80px;
+    height: 70px
 }
 
 .block-Teams .teams-content .oblin-block-img i {
     position: absolute;
-    top: 25px;
-    left: 25px;
+    top: 20px;
+    left: 20px;
     display: block;
-    font-size: 64px
+    font-size: 30px
 }
 
 .block-Teams .teams-content .b-inner-content-wrap {
     display: block;
-    margin-top: 77%;
+    margin-top: 44%;
     background-color: #808080;
 }
 
@@ -4279,6 +4283,15 @@ body textarea:required:valid {
     line-height: 1.3
 }
 
+.rowWrapperDest {
+    padding-bottom: 100px;
+}
+
+.rowDest {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
 .b-wrap1 {
     background-image: /*-webkit-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),*/ url('../images/pobednik1.jpg');
     background-image: /*linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),*/ url('../images/pobednik1.jpg');
@@ -4286,7 +4299,7 @@ body textarea:required:valid {
     background-repeat: no-repeat;
     display: block;
     width: 100%;
-    min-height: 660px;
+    height: 250px;
     position: relative;
     z-index: 10
 }
@@ -4298,7 +4311,7 @@ body textarea:required:valid {
     background-repeat: no-repeat;
     display: block;
     width: 100%;
-    min-height: 660px;
+    height: 250px;
     position: relative;
     z-index: 9;
     -webkit-animation-delay: .3s;
@@ -4312,7 +4325,7 @@ body textarea:required:valid {
     background-repeat: no-repeat;
     display: block;
     width: 100%;
-    min-height: 660px;
+    height: 250px;
     position: relative;
     z-index: 8;
     -webkit-animation-delay: .6s;
@@ -4326,7 +4339,35 @@ body textarea:required:valid {
     background-repeat: no-repeat;
     display: block;
     width: 100%;
-    min-height: 660px;
+    height: 250px;
+    position: relative;
+    z-index: 8;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s
+}
+
+.b-wrap5 {
+    background-image: /*-webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),*/ url('../images/medulin.jpg');
+    background-image: /*linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),*/ url('../images/medulin.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    z-index: 8;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s
+}
+
+.b-wrap6 {
+    background-image: /*-webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),*/ url('../images/slovenia.jpg');
+    background-image: /*linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),*/ url('../images/slovenia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 250px;
     position: relative;
     z-index: 8;
     -webkit-animation-delay: .6s;
@@ -4337,6 +4378,8 @@ body textarea:required:valid {
     font-size: 20px !important;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
+    margin-top: 0px !important;
+    margin-bottom: 0px;
 }
 
 #finger {
@@ -4684,7 +4727,11 @@ body textarea:required:valid {
 
 .block-News .text-wrap {
     margin-top: 100px;
-    margin-bottom: 30px
+    margin-bottom: 0px
+}
+
+.pNews {
+    margin-bottom: 0px !important;
 }
 
 .block-News .news-animated2 {
@@ -4697,6 +4744,20 @@ body textarea:required:valid {
     width: 48% !important;
     margin-left: auto !important;
     margin-right: auto !important;
+}
+
+/* .spanEvents i {
+    display: inline-block !important;
+} */
+
+.events-video-img {
+    width: 25px !important;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 30%;
+    margin-top: 0px !important;
+    margin-right: 20px;
 }
 
 .block-News .news-animated3 {
@@ -4956,7 +5017,7 @@ body textarea:required:valid {
 .block-Club-Gallery .gallery__item .gallery__item__img .hover-link-g .inside p {
     font-size: 2em;
     font-family: KanitRegular, sans-serif;
-    margin: 0 20px;
+    margin: 0;
     position: absolute;
     bottom: 20px
 }
@@ -5035,7 +5096,7 @@ body textarea:required:valid {
 }
 
 .block-Partners .text-wrap {
-    margin-top: 130px;
+    margin-top: 70px;
     line-height: 1
 }
 
@@ -5065,12 +5126,17 @@ body textarea:required:valid {
     outline: none;
 }
 
+/* .colPartners {
+    margin-bottom: 70px;
+} */
+
 #grbUdineseClient {
     margin-top: 30px;
 }
 
 #clients {
     outline: none;
+    padding-top: 60px;
 }
 /* #itmPartnerFSB a img {
     height: 145px;
@@ -5167,9 +5233,10 @@ body textarea:required:valid {
     }
 }
 
-/* #clientsH4 {
-    margin-bottom: 30px;
-} */
+#clientsH4 {
+    font-size: 70px;
+    margin-bottom: 70px;
+}
 
 /* .margina {
     -webkit-transform: translate(0%, -40%);
@@ -5886,7 +5953,7 @@ footer .content-wrap-footer .content-footer .copyright p {
 }
 
 .about-info-block {
-    margin-bottom: 115px
+    margin-bottom: 0px
 }
 
 .about-info-block .history-block {
@@ -6305,9 +6372,10 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 }
 
 .page-contacts-block .text-wrap h2 {
-    line-height: 65px;
+    line-height: 35px;
     letter-spacing: 1px;
-    margin-bottom: 45px
+    margin-bottom: 25px;
+    font-size: 3em;
 }
 
 .page-contacts-block .contact-info-wrap p {
@@ -6328,7 +6396,8 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 }
 
 .page-contacts-block .contact-info-wrap h3 {
-    margin-bottom: 32px
+    margin-bottom: 32px;
+    font-size: 2em;
 }
 
 .page-contacts-block .contact-info-wrap .number-block {
@@ -6342,7 +6411,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 
 .page-contacts-block .contact-info-wrap .number-block .number {
     font-family: RobotoCondensedRegular, sans-serif!important;
-    font-size: 2.75em;
+    font-size: 2em;
     margin-top: 0;
     line-height: 45px
 }
@@ -6388,13 +6457,14 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 }
 
 .page-contacts-block .message-wrap {
-    margin-left: -5px
+    margin-left: -5px;
 }
 
 .page-contacts-block .message-wrap h3 {
     margin-bottom: 30px;
     width: 98%;
-    text-align: center
+    text-align: center;
+    font-size: 2em;
 }
 
 .boxed-form .form-group {
@@ -7186,7 +7256,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         right: 0
     }
     .infoCommittee-wrap h2 {
-        margin-top: 60px
+        margin-top: 0px
     }
     .infoCommittee-wrap .inner-text {
         margin-bottom: 72px
@@ -7217,7 +7287,9 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
     .b-wrap1,
     .b-wrap2,
     .b-wrap3,
-    .b-wrap4 {
+    .b-wrap4,
+    .b-wrap5,
+    .b-wrap6 {
         min-height: 460px
     }
     .block-Teams .b-hover-team:hover .oblique-block {
@@ -7259,7 +7331,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         line-height: 1.3
     }
     .infoCommittee-wrap h2 {
-        margin-top: 40px
+        margin-top: 0px
     }
     .infoCommittee-wrap .inner-text {
         margin-bottom: 42px
@@ -8444,7 +8516,9 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
     .b-wrap1,
     .b-wrap2,
     .b-wrap3,
-    .b-wrap4 {
+    .b-wrap4,
+    .b-wrap5,
+    .b-wrap6 {
         min-height: 310px!important
     }
     .carousel-wrap-teams .owl-nav.disabled {

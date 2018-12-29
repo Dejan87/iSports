@@ -293,7 +293,8 @@ p {
 }
 
 .t-center {
-    text-align: center
+    text-align: center;
+    margin-top: 30px;
 }
 
 .orange-text {
@@ -331,10 +332,10 @@ p {
     color: #fff
 }
 
-.btn.btn-link-o:hover {
+/* .btn.btn-link-o:hover {
     background-color: #fff;
     color: #2a328d
-}
+} */
 
 .btn.btn-link-o:active {
     -webkit-transform: translateY(2px);
@@ -679,19 +680,21 @@ header {
 }
 
 .img-holder1 {
-    background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/sport1.jpg');
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/sport1.jpg');
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/kolaz1.png');
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/kolaz1.png');
     background-size: cover;
-    background-position: center top;
+    background-repeat: no-repeat;
+    background-position: auto;
     height: 100vh;
     width: 100%
 }
 
 .img-holder2 {
-    background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/sport2.jpg');
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/sport2.jpg');
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/kolaz2.png');
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/kolaz2.png');
     background-size: cover;
-    background-position: center top;
+    background-repeat: no-repeat;
+    background-position: auto;
     height: 100vh;
     width: 100%
 }
@@ -700,7 +703,8 @@ header {
     background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/Beograd.jpg');
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/Beograd.jpg');
     background-size: cover;
-    background-position: center top;
+    background-repeat: no-repeat;
+    background-position: auto;
     height: 100vh;
     width: 100%
 }
@@ -803,7 +807,7 @@ body.Pages header .nav-line>ul>li>a {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #808080;
+    background-color: #6d75d3;
 }
 
 #menu.nav-dark {
