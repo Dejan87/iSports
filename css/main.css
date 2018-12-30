@@ -4230,6 +4230,12 @@ body textarea:required:valid {
     background-color: #808080;
 }
 
+.b-inner-content-wrap .destFlag {
+    width: 10%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
 .block-Teams .teams-content .oblique-block {
     display: block;
     float: left;
@@ -7446,6 +7452,11 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 }
 
 @media only screen and (max-width:1360px) {
+    .b-inner-content-wrap .destFlag {
+        width: 10%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
     .t-black .wrap-block-player img {
         height: 698px;
         width: 700px;
@@ -8563,14 +8574,15 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
     .block-Teams .teams-content .b-inner-text {
         display: block;
         float: left;
-        width: 200px;
+        width: 150px;
         margin-left: 15px
     }
     .block-Teams .teams-content .b-inner-text h3 {
         font-weight: 100;
         line-height: .84;
-        margin-top: 0;
+        margin-top: 20px;
         font-size: 1.875em;
+        width: 100px;
         -webkit-transition: all .5s ease;
         transition: all .5s ease
     }
@@ -9147,8 +9159,16 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 }
 
 @media only screen and (max-width:400px) {
+    .b-inner-content-wrap .destFlag {
+        width: 10%;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
     .header-top {
         margin-left: 40px;
+    }
+    .block-Teams .teams-content .b-inner-content-wrap {
+        margin-top: 70%;
     }
 }
 
