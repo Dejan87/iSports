@@ -681,7 +681,7 @@ header {
 
 .img-holder1 {
     background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/kolaz1.png');
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/kolaz1.png');
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/sport1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: auto;
@@ -701,7 +701,7 @@ header {
 
 .img-holder3 {
     background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/Beograd.jpg');
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/Beograd.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/kolaz3.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: auto;
@@ -961,14 +961,22 @@ body.Pages header .nav-line>ul>li>a {
     .img-holder2 {
         background-position: 0px 110px;
     }
+
+    .img-holder3 {
+        background-position: 0px 110px;
+    }
 }
 
 @media only screen and (max-width:768px) {
     .img-holder1 {
-        background-position: 0px -50px !important;
+        background-position: 0px 110px;
     }
     
     .img-holder2 {
-        background-position: 0px -50px !important;
+        background-position: 0px 110px;
+    }
+
+    .img-holder3 {
+        background-position: 0px 110px;
     }
 }

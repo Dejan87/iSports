@@ -8329,6 +8329,9 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 }
 
 @media only screen and (max-width:480px) {
+    #partners h2, #partners h4 {
+        font-size: 4rem !important;
+    }
     .block-Schedule .video-block .wrap-video {
         height: 240px
     }
@@ -9351,11 +9354,15 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
     }
 
     .img-holder1 {
-        background-position: 0px 75px !important;
+        background-position: 0px 110px;
     }
     
     .img-holder2 {
-        background-position: 0px 75px !important;
+        background-position: 0px 110px;
+    }
+
+    .img-holder3 {
+        background-position: 0px 110px;
     }
 }
 
