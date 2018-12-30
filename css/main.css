@@ -5106,7 +5106,7 @@ body textarea:required:valid {
 
 .block-Partners .text-wrap p {
     margin-top: 7px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-family: RobotoCondensedLight, sans-serif;
     font-size: 1.75em;
     letter-spacing: .9px
@@ -5147,7 +5147,7 @@ body textarea:required:valid {
 }
 
 #clients .text-wrap h4 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 /* #itmPartnerFSB a img {
     height: 145px;
@@ -7295,13 +7295,19 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 }
 
 @media only screen and (max-width:1440px) {
+    .nav-line>ul>li>a {
+        padding: 15px 15px;
+    }
+    #partners h2, #partners h4 {
+        font-size: 6rem;
+    }
     .b-wrap1,
     .b-wrap2,
     .b-wrap3,
     .b-wrap4,
     .b-wrap5,
     .b-wrap6 {
-        min-height: 230px
+        max-height: 200px
     }
     .block-Teams .b-hover-team:hover .oblique-block {
         background-color: #fff;
@@ -7309,7 +7315,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
     }
     .block-Teams .teams-content .b-inner-content-wrap {
         display: block;
-        margin-top: 45%;
+        margin-top: 40%;
     }
     .block-Teams .teams-content .oblin-block-img img {
         height: 60px;
@@ -7327,6 +7333,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
     }
     .block-Teams .teams-content .b-inner-text h3 {
         font-weight: 100;
+        font-size: 2.5rem;
         line-height: 1.1;
         margin-top: 4px;
         margin-bottom: 0;
@@ -9086,7 +9093,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         height: 250px
     }
     .block-posts .blog-post .post-image .post-img-carousel-wrap .owl-nav.disabled>div {
-        top: 135px!important;
+        top: 80px!important;
         font-size: 27px
     }
     .block-posts .blog-post .post-title {
