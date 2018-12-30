@@ -953,38 +953,22 @@ body.Pages header .nav-line>ul>li>a {
     border-right: 2px solid #f3f3f3
 }
 
-@media only screen and (max-width:1070px) {
+@media only screen and (max-width:1440px) {
     .img-holder1 {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 0px 80px;
-        height: 100vh;
-        width: 100%
+        background-position: 0px 110px;
     }
     
     .img-holder2 {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 0px 80px;
-        height: 100vh;
-        width: 100%
+        background-position: 0px 110px;
     }
 }
 
 @media only screen and (max-width:768px) {
     .img-holder1 {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 0px 70px;
-        height: 100vh;
-        width: 100%
+        background-position: 0px -50px !important;
     }
     
     .img-holder2 {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 0px 70px;
-        height: 100vh;
-        width: 100%
+        background-position: 0px -50px !important;
     }
 }

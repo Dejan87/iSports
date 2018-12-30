@@ -8363,10 +8363,8 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         background-color: #2a2a2a
     }
 
-    @media only screen and (max-width: 480px) {
-        .textHomeMargina {
-            margin-top: 50px;
-        }
+    .textHomeMargina {
+        margin-top: 50px;
     }
 
     #mainCarouselWrapper .carousel-item {
@@ -8374,10 +8372,15 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         height: 155px;
         width: 100%
     }
+    #mainCarouselWrapper .owl-stage-outer {
+        height: 300px;
+    }
     #mainCarouselWrapper .carousel-item .img-holder1,
     #mainCarouselWrapper .carousel-item .img-holder2,
     #mainCarouselWrapper .carousel-item .img-holder3 {
-        height: 100%
+        height: 100%;
+        background-position: 0px -20px !important;
+        background-size: cover;
     }
     #mainCarouselWrapper .carousel-item .carousel-content .text-wrap {
         position: relative;
@@ -8430,6 +8433,16 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         right: 15px;
         left: auto
     }
+
+    .rowDest {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .b-inner-text {
+        height: 50px;
+    }
+
     .block.t-black {
         margin-bottom: 30px
     }
@@ -9328,6 +9341,14 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
     .post-image {
         width: 75%;
         margin-left: 90px !important;
+    }
+
+    .img-holder1 {
+        background-position: 0px 75px !important;
+    }
+    
+    .img-holder2 {
+        background-position: 0px 75px !important;
     }
 }
 
