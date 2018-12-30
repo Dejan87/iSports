@@ -4292,6 +4292,10 @@ body textarea:required:valid {
     padding-right: 150px;
 }
 
+.rowDest .col-md-4 {
+    padding: 0px;
+}
+
 .b-wrap1 {
     background-image: /*-webkit-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),*/ url('../images/pobednik1.jpg');
     background-image: /*linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),*/ url('../images/pobednik1.jpg');
@@ -5096,13 +5100,13 @@ body textarea:required:valid {
 }
 
 .block-Partners .text-wrap {
-    margin-top: 70px;
+    margin-top: 50px;
     line-height: 1
 }
 
 .block-Partners .text-wrap p {
     margin-top: 7px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     font-family: RobotoCondensedLight, sans-serif;
     font-size: 1.75em;
     letter-spacing: .9px
@@ -5136,7 +5140,14 @@ body textarea:required:valid {
 
 #clients {
     outline: none;
-    padding-top: 60px;
+}
+
+#clients .text-wrap {
+    margin-top: 20px;
+}
+
+#clients .text-wrap h4 {
+    margin-bottom: 30px;
 }
 /* #itmPartnerFSB a img {
     height: 145px;
@@ -6589,10 +6600,10 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 
 .block-posts .blog-post .post-image .post-img-carousel-wrap .owl-nav.disabled>div {
     position: absolute;
-    top: 235px;
-    left: 23px;
+    top: 100px;
+    left: -60px;
     font-size: 47px;
-    color: #fff;
+    color: #000;
     -webkit-transition: all .5s ease;
     transition: all .5s ease
 }
@@ -6602,7 +6613,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 }
 
 .block-posts .blog-post .post-image .post-img-carousel-wrap .owl-nav.disabled>div.owl-next {
-    right: 23px;
+    right: -60px;
     left: auto
 }
 
@@ -7290,7 +7301,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
     .b-wrap4,
     .b-wrap5,
     .b-wrap6 {
-        min-height: 460px
+        min-height: 230px
     }
     .block-Teams .b-hover-team:hover .oblique-block {
         background-color: #fff;
@@ -7298,18 +7309,18 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
     }
     .block-Teams .teams-content .b-inner-content-wrap {
         display: block;
-        margin-top: 60%;
+        margin-top: 45%;
     }
     .block-Teams .teams-content .oblin-block-img img {
-        height: 100px;
-        width: 117px;
+        height: 60px;
+        width: 70px;
         -webkit-transition: all .5s ease;
         transition: all .5s ease
     }
     .block-Teams .teams-content .oblin-block-img i {
         top: 20px;
         left: 20px;
-        font-size: 55px
+        font-size: 25px
     }
     .block-Teams .teams-content .b-inner-text {
         margin-left: 10px
@@ -7459,19 +7470,28 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 }
 
 @media only screen and (max-width:1280px) {
+    .b-wrap1,
+    .b-wrap2,
+    .b-wrap3,
+    .b-wrap4,
+    .b-wrap5,
+    .b-wrap6 {
+        max-height: 180px;
+        min-height: auto;
+    }
     .t-black .wrap-block-player img {
         height: 698px;
         width: 700px;
         top: 70px;
-        right: -100px
+        right: -100px;
     }
     .block-Teams .b-hover-team:hover .oblique-block {
         background-color: #fff;
-        width: 150px
+        width: 150px;
     }
     .block-Teams .teams-content .b-inner-content-wrap {
         display: block;
-        margin-top: 60%
+        margin-top: 46%
     }
     .block-Teams .teams-content .oblique-block {
         height: 100px;
@@ -7487,15 +7507,16 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
     }
     .block-Teams .teams-content .oblique-block>span i {
         position: relative;
-        display: block;
+        display: inline-block;
         margin: 20px 0 0 54px;
         font-size: 55px;
         -webkit-transition: all .5s ease;
         transition: all .5s ease
     }
     .block-Teams .teams-content .b-inner-text {
-        margin-left: 65px;
-        width: 70%
+        margin-left: 25px;
+        width: 50%;
+        float: left;
     }
     .block-Teams .teams-content .b-inner-text h3 {
         font-weight: 100;
@@ -7533,11 +7554,11 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         margin-top: 100px;
         margin-bottom: 25px
     }
-    .block-News .carousel-item-news {
+    /* .block-News .carousel-item-news {
         height: auto;
         width: auto;
         padding-left: 5px
-    }
+    } */
     .block-News .carousel-wrap-news .owl-nav.disabled>div {
         position: absolute;
         top: 180px;
@@ -7610,7 +7631,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         margin: 40px auto
     }
     .nav-line>ul>li>a {
-        padding: 20px 9px!important
+        padding: 9px 20px!important
     }
     .carousel-content .text-wrap {
         position: relative;
@@ -7653,6 +7674,22 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
     }
     .block-posts .side-block .calendar table tr td {
         padding: 5px 0
+    }
+}
+
+@media only screen and (max-width:1171px) {
+    .rowDest {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .b-inner-text h3 {
+        font-size: 2.5rem !important;
+    }
+    .RMDest {
+        font-size: 1.5rem !important;
+    }
+    #finger {
+        font-size: 1.9rem !important;
     }
 }
 
@@ -7767,6 +7804,14 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 }
 
 @media only screen and (max-width:992px) {
+    .b-wrap1,
+    .b-wrap2,
+    .b-wrap3,
+    .b-wrap4,
+    .b-wrap5,
+    .b-wrap6 {
+        min-height: 250px;
+    }
     .Pages .infoCommittee-wrap {
         margin-top: 60px
     }
@@ -7991,6 +8036,9 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 }
 
 @media only screen and (max-width:768px) {
+    .block-Teams .teams-content .b-inner-content-wrap {
+        margin-top: 40%;
+    }
     .carousel-wrap-teams .owl-nav.disabled {
         display: block
     }
