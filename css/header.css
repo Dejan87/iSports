@@ -680,8 +680,8 @@ header {
 }
 
 .img-holder1 {
-    background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/sport1.jpg');
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/sport1.jpg');
+    background-image: url('../images/sport1.jpg');
+    background-image: url('../images/sport1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: auto;
@@ -690,8 +690,8 @@ header {
 }
 
 .img-holder2 {
-    background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/sport2.jpg');
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/sport2.jpg');
+    background-image: url('../images/sport2.jpg');
+    background-image: url('../images/sport2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: auto;
@@ -700,8 +700,8 @@ header {
 }
 
 .img-holder3 {
-    background-image: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/Beograd.jpg');
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/Beograd.jpg');
+    background-image: url('../images/Beograd.jpg');
+    background-image: url('../images/Beograd.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: auto;

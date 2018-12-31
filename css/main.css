@@ -4296,6 +4296,8 @@ body textarea:required:valid {
 .rowDest {
     padding-left: 150px;
     padding-right: 150px;
+    width: 100%;
+    margin: 0px;
 }
 
 .rowDest .col-md-4 {
@@ -7798,7 +7800,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
     }
     .block-Teams .teams-content .b-inner-content-wrap {
         display: block;
-        margin-top: 65%
+        margin-top: 67%;
     }
     body.Pages .nav-line>ul>li>a {
         padding: 20px 9px!important
@@ -8055,7 +8057,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 
 @media only screen and (max-width:768px) {
     .block-Teams .teams-content .b-inner-content-wrap {
-        margin-top: 40%;
+        margin-top: 46%;
     }
     .carousel-wrap-teams .owl-nav.disabled {
         display: block
@@ -8560,7 +8562,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         font-size: 1.75em
     }
     .block-Teams .teams-content .b-inner-content-wrap {
-        margin-top: 64.5%
+        margin-top: 67%
     }
     .block-Teams .teams-content .oblin-block-img img {
         height: 82px;
@@ -9168,7 +9170,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         margin-left: 40px;
     }
     .block-Teams .teams-content .b-inner-content-wrap {
-        margin-top: 75%;
+        margin-top: 80%;
     }
 }
 
