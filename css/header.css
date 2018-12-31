@@ -954,7 +954,7 @@ body.Pages header .nav-line>ul>li>a {
 }
 
 @media only screen and (max-width:1440px) {
-    .img-holder1 {
+    /* .img-holder1 {
         background-position: 0px 110px;
     }
     
@@ -964,11 +964,11 @@ body.Pages header .nav-line>ul>li>a {
 
     .img-holder3 {
         background-position: 0px 110px;
-    }
+    } */
 }
 
 @media only screen and (max-width:768px) {
-    .img-holder1 {
+    /* .img-holder1 {
         background-position: 0px 110px;
     }
     
@@ -978,5 +978,5 @@ body.Pages header .nav-line>ul>li>a {
 
     .img-holder3 {
         background-position: 0px 110px;
-    }
+    } */
 }

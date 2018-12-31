@@ -8394,7 +8394,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         width: 100%
     }
     #mainCarouselWrapper .owl-stage-outer {
-        height: 300px;
+        height: 290px;
     }
     #mainCarouselWrapper .carousel-item .img-holder1,
     #mainCarouselWrapper .carousel-item .img-holder2,
@@ -9168,7 +9168,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         margin-left: 40px;
     }
     .block-Teams .teams-content .b-inner-content-wrap {
-        margin-top: 70%;
+        margin-top: 75%;
     }
 }
 
@@ -9373,7 +9373,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         margin-left: 90px !important;
     }
 
-    .img-holder1 {
+    /* .img-holder1 {
         background-position: 0px 110px;
     }
     
@@ -9383,7 +9383,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
 
     .img-holder3 {
         background-position: 0px 110px;
-    }
+    } */
 }
 
 @media only screen and (max-width:650px) {
