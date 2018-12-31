@@ -243,8 +243,8 @@ $(".tabel-link3").click(function() {
 			0:{
 				items:1,
 			},
-			864:{
-				items:2,
+			768:{
+				items:1,
 			},
 			1200:{
 				items:3,
@@ -263,7 +263,7 @@ $(".carousel-wrap-news").owlCarousel({
 		0:{
 			items:1,
 		},
-		500:{
+		768:{
 			items:2,
 		},
 		1124:{

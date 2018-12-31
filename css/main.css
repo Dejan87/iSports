@@ -4641,7 +4641,7 @@ body textarea:required:valid {
 
 .team {
     height: 175px !important;
-    width: 170px !important;
+    /* width: 170px !important; */
 }
 
 .b-wrap-Coaches .car-text-wrap {
