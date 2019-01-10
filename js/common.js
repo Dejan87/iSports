@@ -263,6 +263,9 @@ $(".carousel-wrap-news").owlCarousel({
 		0:{
 			items:1,
 		},
+		400:{
+			items:1,
+		},
 		768:{
 			items:2,
 		},
@@ -284,7 +287,7 @@ $(".carousel-wrap-partners").owlCarousel({
 			items:1,
 		},
 		476:{
-			items:3,
+			items:1,
 		},
 		776:{
 			items:3,
