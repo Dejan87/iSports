@@ -4378,8 +4378,8 @@ body textarea:required:valid {
 }
 
 .b-wrap6 {
-    background-image: /*-webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),*/ url('../images/slovenia.jpg');
-    background-image: /*linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),*/ url('../images/slovenia.jpg');
+    background-image: /*-webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),*/ url('../images/antalija.jpg');
+    background-image: /*linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),*/ url('../images/antalija.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
