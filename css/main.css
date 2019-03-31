@@ -8521,7 +8521,7 @@ body.Pages .block-Club-Gallery .filters-by-category ul {
         position: absolute;
         top: 200px;
         left: 15px;
-        font-size: 20px
+        font-size: 20px;
     }
     #mainCarouselWrapper .carousel-eq .owl-nav>div.owl-next {
         right: 15px;

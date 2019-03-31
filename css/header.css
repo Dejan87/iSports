@@ -292,6 +292,10 @@ p {
     color: #fff
 }
 
+.t-white .textHomeMargina h2 {
+    text-shadow: 2px 0 0 #2a328d, -2px 0 0 #2a328d, 0 2px 0 #2a328d, 0 -2px 0 #2a328d, 1px 1px #2a328d, -1px -1px 0 #2a328d, 1px -1px 0 #2a328d, -1px 1px 0 #2a328d
+}
+
 .t-center {
     text-align: center;
     margin-top: 30px;
