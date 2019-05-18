@@ -77,6 +77,11 @@ $('a[href*="#"]')
 		return false;
 	});
 
+	$(".menu li a").click(function() {
+		$(".toggle-mnu").toggleClass("on");
+		$(".nav-line-hidden").slideToggle();
+	});
+
 
 //spoylar-table-Schedule
 
